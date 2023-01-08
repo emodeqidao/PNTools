@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import <PNTool/PNVoucher.h>
-#import <SVProgressHUD/SVProgressHUD.h>
+#import <PNTool/NSString+MD5.h>
 
 //! Project version number for PNTool.
 FOUNDATION_EXPORT double PNToolVersionNumber;
