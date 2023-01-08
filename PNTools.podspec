@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   # }
 
   s.public_header_files = 'PNTools/PNTool.framework/Headers/*.{h}'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   #s.dependency 'AFNetworking'
   #s.dependency 'Masonry'
   #s.dependency 'YYModel' 
