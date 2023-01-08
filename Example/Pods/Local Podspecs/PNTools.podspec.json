@@ -1,6 +1,6 @@
 {
   "name": "PNTools",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "summary": "A short description of PNTools.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xixi/PNTools",
@@ -12,11 +12,15 @@
     "xixi": "xixi_wen@foxmial.com"
   },
   "source": {
-    "git": "https://github.com/xixi/PNTools.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/emodeqidao/PNTools.git",
+    "tag": "0.4.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "PNTools/Classes/**/*"
+  "source_files": "PNTools/Classes/*.{h,m}",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 armv7 arm64"
+  },
+  "public_header_files": "Pod/Classes/*.h"
 }

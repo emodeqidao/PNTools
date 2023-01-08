@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "NSString+MD5.h"
+#import "PNVoucher.h"
 
 FOUNDATION_EXPORT double PNToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char PNToolsVersionString[];

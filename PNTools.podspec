@@ -30,8 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
   
-  s.vendored_frameworks = ['PNTools/Classes/PNTool.framework']
-  s.source_files = "PNTools/Classes/PNTool.framework/Headers/*.{h,m}"
+  s.vendored_frameworks = ['PNTools/PNTool.framework']
+  s.source_files = "PNTools/PNTool.framework/Headers/*.{h}"
+  #s.source_files = "PNTools/Classes/*.{h,m}"
+
 
 
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
@@ -41,10 +43,10 @@ TODO: Add long description of the pod here.
   #   'PNTools' => ['PNTools/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'PNTools/PNTool.framework/Headers/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   #s.dependency 'AFNetworking'
   #s.dependency 'Masonry'
   #s.dependency 'YYModel' 
-  s.dependency 'SVProgressHUD'
+  #s.dependency 'SVProgressHUD'
 end

@@ -7,6 +7,7 @@
 //
 
 #import "PNViewController.h"
+#import "PNVoucher.h"
 
 @interface PNViewController ()
 
