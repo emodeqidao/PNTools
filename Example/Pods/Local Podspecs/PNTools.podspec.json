@@ -1,0 +1,22 @@
+{
+  "name": "PNTools",
+  "version": "0.1.0",
+  "summary": "A short description of PNTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xixi/PNTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xixi": "xixi_wen@foxmial.com"
+  },
+  "source": {
+    "git": "https://github.com/xixi/PNTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "PNTools/Classes/**/*"
+}
